@@ -43,18 +43,20 @@ public class BreadthFirstSearch {
 
 	}
 
-	public String tostring() {
+	public String toString() {
 		StringBuilder sb = new StringBuilder();
-		sb.append("Vertices " + vertices + " Edges " + edges);
-		for (int i = 0; i < vertices; i++) {
-			sb.append(vertices + ": ");
-			for (int w : adj[vertices]) {
+		sb.append("Vertices " + vertices + " Edges " + edges+"\n");
+		for (int i= 0; i < vertices; i++) {
+			sb.append(i + ": ");
+			for (int w : adj[i]) {
 				sb.append(w + " ");
 			}
 			sb.append("\n");
 		}
 		return sb.toString();
 	}
+
+
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -65,6 +67,7 @@ public class BreadthFirstSearch {
 		g.addEdge(2, 3);
 		g.addEdge(3, 0);
 		g.addEdge(2, 4);
+		//System.out.println(g);
 		g.bfs(0);
 	}
 
