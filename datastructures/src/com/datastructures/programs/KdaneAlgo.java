@@ -5,9 +5,11 @@ public class KdaneAlgo {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		int[] arr = { 4, -3, -2, 2, 3, 1, -2, -3, 4, 2, -6, -3, -1, 3, 1, 2 };
+		//int[] arr = { 4, -3, -2, 2, 3, 1, -2, -3, 4, 2, -6, -3, -1, 3, 1, 2 };
+		//int[] arr ={2,-2,-3,4,3};
+		int[] arr ={2,-2,4,3,-2,7};
 		int start = 0;
-		int end = 0;
+		int end = 0; 
 		int s = 0;
 		int max_So_far = arr[0];
 		int max_end_here = 0;
