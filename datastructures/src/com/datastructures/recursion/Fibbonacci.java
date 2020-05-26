@@ -16,7 +16,7 @@ public class Fibbonacci {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Fibbonacci fs = new Fibbonacci();
-		System.out.println(fs.fibonacciSeriesRecursive(6));
+		System.out.println(fs.fibonacciSeriesRecursive(4));
 	}
 
 }
